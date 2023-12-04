@@ -1,0 +1,250 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Sarabun';
+}
+  
+.background-container {
+    background: url('/assets/fondo_inicio.jpg') center/cover no-repeat;
+    height: 100vh; 
+    position: relative;
+    overflow: hidden;
+}
+  
+.content {
+    position: absolute;
+    top: 31.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; 
+}
+.content h1 {
+    font-family: Luckiest Guy;
+    font-size: 1.9cm;
+    color: #f385ac;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 4);
+    -webkit-text-stroke: 0.5px white;
+}
+.content p {
+    padding-top: 25px;
+    font-family: Sarabun;
+    font-size: 0.8cm;    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 5);
+    font-weight: bold;
+}
+.background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25); 
+    z-index: 0; 
+}
+.logo {
+    width: 10cm; 
+}
+
+.footer {
+    background-color: #945c64; 
+    font-family: Sarabun;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+font-weight: bold;
+font-family: Sarabun;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Sarabun;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #de4368; 
+    color: white;
+    border: 5px;
+    cursor: pointer;
+}
+
+.datoUbicacion,
+.redesSociales,
+.contacto {
+    margin-bottom: 6px;
+    width: 30%;
+}
+
+p {
+    clear: both;
+    margin-top: 20px;
+}
+
+.datos_contacto {
+    padding: 1cm;
+    display: flex; /* Hacer que los elementos hijos se distribuyan en línea */
+    justify-content: space-between;
+}
+
+.consultas {
+    background-color: #f384ab;
+    padding: 0.5cm;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+}
+
+.redesSociales i {
+font-size: 1cm;
+margin: 11px;
+}
+
+.redesSociales i:hover {
+    transform: scale(1.4);
+}
+
+.contacto p {
+    padding-bottom: 8;
+    margin: 0;
+    line-height: 2;
+}
+
+h4 {
+font-family: Sarabun;
+font-size: 25px;
+color: #f7cdd7;
+font-weight: bold;
+}
+
+.sabores {
+    background-color: #c63b5b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 15vh; 
+    width: 100%; 
+    text-align: center; 
+}
+.saboresTipos {
+    padding: 14px;
+    background-color: #E0D5BE;
+    height: 50vh;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Luckiest Guy';
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    color: #f7cdd7; 
+    -webkit-text-stroke: 0.5px black; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.saboresTipos p {
+    font-family: 'Sarabun';
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    color: #f7cdd7; 
+    -webkit-text-stroke: 0.5px black; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+button.btn-conoce {
+    font-family: Sarabun;
+    font-weight: bold;
+    background-color: #945c64; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    margin-top: 2cm; 
+    border: 2px solid #c63b5b;
+    border-radius: 15px;
+}
+
+button.btn-conoce:hover {
+    background-color: #c8ad8d; 
+    color: #fff; 
+}
+.panaRuta {
+    background-color: #E0D5BE;
+    height: 50vh;
+    text-align: center;
+    background-image: url('/assets/panaRutaFondo.png');
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px; 
+    text-align: center; 
+}
+.panaRuta h6 {
+    font-family: 'Luckiest Guy';
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    color: #f7cdd7; 
+    -webkit-text-stroke: 0.5px black; 
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 3); 
+}
+
+.panaRuta p{ 
+    font-size: 25px;
+    font-family: Sarabun;
+    background-color: #f7cdd7;
+    color: #28313a;
+    border: 5px solid #945c64; 
+    border-radius: 40px;
+    padding: 15px;
+    width: 50%; 
+    margin: 0 auto; 
+    line-height: 1.2;
+    font-weight: bolder; 
+}
+
+.mensajeFinal {
+    text-align: center; 
+    background-color: #c63b5b;
+    color: #f9fad2;
+    padding: 20px;
+}
+
+.mensajeFinal p {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: Sarabun;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+.mensajeFinal img {
+    margin: 1cm;
+    width: 15%; /* Ajustar el ancho de la imagen según sea necesario */
+    height: auto; 
+}

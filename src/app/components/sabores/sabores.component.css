@@ -1,0 +1,163 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Sarabun';
+}
+/* FOOTER CSS */
+.footer {
+    background-color: #945c64; 
+    font-family: Sarabun;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+font-weight: bold;
+font-family: Sarabun;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Sarabun;
+}
+
+.footer {
+    background-color: #945c64; 
+    font-family: Sarabun;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+font-weight: bold;
+font-family: Sarabun;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Sarabun;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #de4368; 
+    color: white;
+    border: 5px;
+    cursor: pointer;
+}
+
+.datoUbicacion,
+.redesSociales,
+.contacto {
+    margin-bottom: 6px;
+    width: 30%;
+}
+
+p {
+    clear: both;
+    margin-top: 20px;
+}
+
+.datos_contacto {
+    padding: 1cm;
+    display: flex; /* Hacer que los elementos hijos se distribuyan en línea */
+    justify-content: space-between;
+}
+
+.consultas {
+    background-color: #f384ab;
+    padding: 0.5cm;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+}
+
+.redesSociales i {
+font-size: 1cm;
+margin: 11px;
+}
+
+.redesSociales i:hover {
+    transform: scale(1.4);
+}
+
+
+.contacto p {
+    padding-bottom: 8;
+    margin: 0;
+    line-height: 2;
+}
+
+/* FIN FOOTER CSS */
+
+.encabezado {
+    background-color: #E0D5BE;
+    text-align: center;
+    padding: 25px;
+    padding-top: 1.6cm;
+}
+h1{
+    font-family: Luckiest Guy;
+    font-size: 55px;
+}
+.encabezado p {
+    font-size: 15px;
+}
+/*IMAGENES*/
+.grid-container {
+    background-color: #E0D5BE;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap:35px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 8cm;
+    padding-right: 8cm;
+    justify-content: center;
+    align-items: center; 
+}
+
+.grid-item {
+    border: 5px solid #4b5e6c; /* Borde para resaltar cada elemento */
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Alineación del contenido al centro */
+    height: 300px; /* Ajusta la altura a tu preferencia */
+    width: 400px; /* Ajusta el ancho a tu preferencia */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.grid-item img {
+    width: 80%; /* O ajusta a un valor fijo si prefieres un tamaño específico */
+    height: 80%; /* O ajusta a un valor fijo si prefieres un tamaño específico */
+    object-fit: cover;
+    margin: auto; /* Alinea la imagen al centro horizontalmente */
+    display: block; /* Evita el espacio extra debajo de la imagen */
+}
+
+.grid-container p {
+    font-family: Sarabun;
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+    background-color: #de4368;
+    padding: 8px;
+}

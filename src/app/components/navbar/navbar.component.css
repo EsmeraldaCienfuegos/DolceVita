@@ -1,0 +1,29 @@
+.mat-toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6e1324; 
+}
+
+.nav-item {
+    color: white;
+    margin: 0 8px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 26px;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #f384ab;
+}  
+
+.mat-toolbar-row {
+    width: 55%;
+}
+
+.mat-toolbar-row span {
+    flex: 1;
+    text-align: center;
+}

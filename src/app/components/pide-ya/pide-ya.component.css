@@ -1,0 +1,189 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Sarabun';
+}
+/* FOOTER CSS */
+.footer {
+    background-color: #945c64; 
+    font-family: Sarabun;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+font-weight: bold;
+font-family: Sarabun;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Sarabun;
+}
+
+.footer {
+    background-color: #945c64; 
+    font-family: Sarabun;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+font-weight: bold;
+font-family: Sarabun;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-family: Sarabun;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #de4368; 
+    color: white;
+    border: 5px;
+    cursor: pointer;
+}
+
+.datoUbicacion,
+.redesSociales,
+.contacto {
+    margin-bottom: 6px;
+    width: 30%;
+}
+
+p {
+    clear: both;
+    margin-top: 20px;
+}
+
+.datos_contacto {
+    padding: 1cm;
+    display: flex; /* Hacer que los elementos hijos se distribuyan en línea */
+    justify-content: space-between;
+}
+
+.consultas {
+    background-color: #f384ab;
+    padding: 0.5cm;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+}
+
+.redesSociales i {
+font-size: 1cm;
+margin: 11px;
+}
+
+.redesSociales i:hover {
+    transform: scale(1.4);
+}
+
+
+.contacto p {
+    padding-bottom: 8;
+    margin: 0;
+    line-height: 2;
+}
+
+/* FIN FOOTER CSS */
+
+.background-container {
+    background-color: #faddb4;
+    height: 50vh; 
+    position: relative;
+    overflow: hidden;
+}
+  
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1; 
+}
+.content h1 {
+    margin-top: 8px;
+    font-family: Luckiest Guy;
+    font-size: 3cm;
+    color: #de4368;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 4);
+    -webkit-text-stroke: 3px white;
+}
+.content p {
+    margin-top: 25px;
+    padding: 25px;
+    font-family: Sarabun;
+    font-size: 45px;    
+    line-height: 1;
+    font-weight: bold;
+    color: #de4368;
+}
+.background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25); 
+    z-index: 0; 
+}
+.logo {
+    width: 5cm; 
+}
+
+.mensaje {
+    background: url('/assets/panacotaFinal.webp') center/cover no-repeat;
+    padding: 4cm;
+    font-family: Sarabun;
+    text-align: center;
+}
+
+.contenido_mensaje {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(148, 33, 65, 0.76); 
+    padding: 20px;
+}
+
+.contenido_mensaje h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.contenido_mensaje h3 {
+    color: #c7a099;
+    font-size: 30px;
+}
+
+.contenido_mensaje p {
+    color: #cbbfc0;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+
+
